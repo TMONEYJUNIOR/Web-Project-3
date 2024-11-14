@@ -2,7 +2,8 @@ body {
     font-family: 'Arial', sans-serif; /* Sets default font to Arial with a fallback */
     margin: 0; /* Removes default margin */
     background-color: #9a9a9aa0; /* Sets a semi-transparent gray background */
-    color: #000000; /* Text color set to black */
+    color: #ffffff; /* Text color set to black */
+    font-size: 16px; /* Establishes a base font size */
 }
 
 header {
@@ -16,7 +17,7 @@ nav ul {
 
 nav ul li {
     display: inline; /* Displays list items in a single horizontal row */
-    margin-right: 20px; /* Adds spacing between navigation links */
+    margin-right: 1.25rem; /* Adds spacing between navigation links */
 }
 
 a:hover {
@@ -24,14 +25,14 @@ a:hover {
 }
 
 section {
-    margin: 20px 0; /* Adds vertical margins */
-    padding: 10px; /* Adds padding */
+    margin: 1.25rem 0; /* Adds vertical margins */
+    padding: 0.625rem; /* Adds padding */
     background: #ffffff; /* White background */
-    border: 1px solid #dddddd; /* Light gray border */
+    border: 0.0625rem solid #dddddd; /* Light gray border */
 }
 
 footer {
-    margin-top: 25%; /* Adds top margin */
+    margin-top: 15rem; /* Adds top margin */
     text-align: center; /* Centers text */
     background-color: #000000; /* Black background */
     color: white; /* White text color */
@@ -42,11 +43,11 @@ header, nav {
     background-color: #000000; /* Black background */
     color: white; /* White text color */
     text-align: center; /* Centers text */
-    padding: 10px; /* Adds padding */
+    padding: 0.625rem; /* Adds padding */
 }
 
 nav a {
-    margin: 0 20px; /* Horizontal margin between links */
+    margin: 0 1.25rem; /* Horizontal margin between links */
     color: #ffffff; /* White text */
     text-decoration: none; /* Removes underline */
 }
