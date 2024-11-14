@@ -1,0 +1,103 @@
+<!--
+Name: [Trevor Lord]
+Course: [Web Dev 20S]
+Teacher: [Ashley Hoitink]
+School: [Pembina trails Collegiate]
+Date Last Modified: [11/14/2024]
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information and title -->
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsiveness on different devices -->
+    <title>Treaty 1 Website for Youth</title> <!-- Title displayed in the browser tab -->
+    
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to an external CSS file -->
+
+    <style>
+        /* Styling for Navigation links */
+        nav a {
+            margin: 0 15px; /* Space between navigation links */
+            color: white; /* Text color for navigation links */
+            text-decoration: none; /* Removes underline from links */
+        }
+        nav a:hover {
+            text-decoration: underline; /* Adds underline when a link is hovered over */
+        }
+
+        /* Main container styles */
+        .container {
+            display: flex; /* Enables flexbox layout for child elements */
+            flex-wrap: wrap; /* Allows child elements to wrap onto a new line */
+            justify-content: center; /* Centers child elements within the container */
+            padding: 20px; /* Padding inside the container */
+        }
+
+        /* Card styles */
+        .card {
+            background: #ffffffc9; /* Semi-transparent white background for cards */
+            border-radius: 8px; /* Rounds the corners of the card */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+            margin: 10px; /* Margin around each card */
+            padding: 20px; /* Padding inside each card */
+            width: 300px; /* Sets a fixed width for the cards */
+            text-align: center; /* Centers text within each card */
+        }
+
+        /* Highlighted text styling */
+        .highlight {
+            color: #FFD700; /* Gold color for emphasized text */
+            font-weight: bold; /* Bold font for emphasized text */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with main title -->
+    <header id="main-header">
+        <h1 class="highlighted-title" style="color: #FFD700;">Treaty 1 Education</h1> <!-- Main title with highlighted text -->
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav id="main-nav">
+        <!-- Navigation links for the website -->
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="history.html" class="nav-link">History</a>
+        <a href="communities.html" class="nav-link">Communities</a>
+        <a href="anniversary.html" class="nav-link">150th Anniversary</a>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container" id="main-container">
+        <!-- Welcome Card -->
+        <div class="card" id="welcome-card">
+            <h3>Welcome</h3>
+            <p>Learn about <span class="highlight">Treaty 1</span>, its history, communities, and modern relevance.</p> <!-- Brief introduction -->
+        </div>
+
+        <!-- History Card -->
+        <div class="card" id="history-card">
+            <h3>History</h3>
+            <p>Explore the <span class="highlight">background</span> of Treaty 1.</p> <!-- Brief description of the history content -->
+            <a href="history.html">Read More</a> <!-- Link to more detailed history page -->
+        </div>
+
+        <!-- Communities Card -->
+        <div class="card" id="communities-card">
+            <h3>Communities</h3>
+            <p>Discover the <span class="highlight">First Nations</span> involved in Treaty 1.</p> <!-- Brief description of communities content -->
+            <a href="communities.html">Learn More</a> <!-- Link to communities page -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <p>Sources:</p> <!-- Source links for reference -->
+        <a href="https://treaty1.ca">Treaty 1</a><br>
+        <a href="https://en.wikipedia.org/wiki/Treaty_1">Wikipedia</a><br>
+        <a href="https://canadiangeographic.ca/articles/treaties-1-and-2-reflecting-on-the-150th-anniversary/">Canadian Geographic</a>
+    </footer>
+</body>
+</html>
