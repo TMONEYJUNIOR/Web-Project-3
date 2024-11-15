@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif; /* Sets default font to Arial with a fallback */
     margin: 0; /* Removes default margin */
     background-color: #9a9a9aa0; /* Sets a semi-transparent gray background */
-    color: #ffffff; /* Text color set to black */
+    color: #000000; /* Text color set to black */
     font-size: 16px; /* Establishes a base font size */
 }
 
