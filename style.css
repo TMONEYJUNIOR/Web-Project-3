@@ -1,0 +1,64 @@
+/**
+The color scheme I chose combines neutral, warm, and bold tones to create balance and contrast.
+The semi-transparent gray background offers a calm, neutral backdrop, helping other colors stand out.
+The gold highlight brings warmth and grabs attention, adding vibrancy against the black text and white section backgrounds. Together,
+this combination provides a clean, striking, and cohesive design.*/
+
+body {
+    font-family: 'Arial', sans-serif; /* Sets default font to Arial with a fallback */
+    margin: 0; /* Removes default margin */
+    background-color: #9a9a9aa0; /* Sets a semi-transparent gray background */
+    color: #000000; /* Text color set to black */
+    font-size: 16px; /* Establishes a base font size */
+}
+
+header {
+    padding: 1rem; /* Adds padding to the header */
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullets from list */
+    padding: 0; /* Removes default padding */
+}
+
+nav ul li {
+    display: inline; /* Displays list items in a single horizontal row */
+    margin-right: 1.25rem; /* Adds spacing between navigation links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underlines links on hover */
+}
+
+section {
+    margin: 1.25rem 0; /* Adds vertical margins */
+    padding: 0.625rem; /* Adds padding */
+    background: #ffffff; /* White background */
+    border: 0.0625rem solid #dddddd; /* Light gray border */
+}
+
+footer {
+    margin-top: 17.6rem; /* Adds top margin */
+    text-align: center; /* Centers text */
+    background-color: #000000; /* Black background */
+    color: white; /* White text color */
+    width: 100%; /* Ensures footer stretches across page */
+}
+
+header, nav {
+    background-color: #000000; /* Black background */
+    color: white; /* White text color */
+    text-align: center; /* Centers text */
+    padding: 0.625rem; /* Adds padding */
+}
+
+nav a {
+    margin: 0 1.25rem; /* Horizontal margin between links */
+    color: #ffffff; /* White text */
+    text-decoration: none; /* Removes underline */
+}
+
+.highlight {
+    color: #FFD700; /* Gold color for highlighted text */
+    font-weight: bold; /* Makes text bold */
+}
